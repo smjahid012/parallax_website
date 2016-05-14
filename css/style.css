@@ -1,0 +1,352 @@
+				/* =============== Base CSS =============== */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body { }
+a:hover { 
+	text-decoration: none; 
+}/* =============== Base CSS End =============== */
+
+				
+/* =============== Head Section =============== */						
+.top-area-bg { background:url(../images/bg_main.jpg)}
+.header-text-area {
+	padding:40px;
+}
+.header-text h2 {
+	 background: url(../images/divder_2.png); 
+}
+.top-area { 
+	position: relative;
+}
+.top-area-bg {
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.main-menu ul.nav.navbar-nav {
+    float: none;
+    text-align: right;
+    font-size: 20px;
+}
+.main-menu ul.nav.navbar-nav li {
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+.main-menu ul.nav.navbar-nav li a {
+    color: #fff;
+    padding: 40px 15px;
+}
+.main-menu ul.nav.navbar-nav li a:hover { background: none }
+.main-menu ul.nav.navbar-nav li.active:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    content: "";
+    background: #000;
+}
+.main-menu ul.nav.navbar-nav li a:focus { 
+	background: none; 
+}
+.is-sticky .main-menu ul.nav.navbar-nav li a:focus { 
+	color: #000; 
+}
+.logo img { 
+	height: 90px; 
+}
+.header-text { 
+	padding: 100px 0; 
+}
+.header-text h2 {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 80px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+.btn-filled {
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn-filled:after {
+    z-index: -1;
+    background: #1d2122;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+.btn-filled.white:after { 
+	background-color: #d2ba82; 
+}
+.btn-filled:hover { 
+	background-color: #1e1e1e;
+}
+.main-menu {
+    padding-right: 50px;
+    position: relative;
+}
+.social_links {
+    position: absolute;
+    top: 36px;
+    right: 0px;
+}
+.social_links a {
+    color: #deb13d;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.section-padding { 
+	padding: 80px 0;
+ }/* =============== Head Section End =============== */	
+ 
+
+/* =============== About Section =============== */
+.about-area { 
+	background: url(../images/pattern_2.jpg) center top no-repeat;
+ }
+.right-food h2 {
+    color: #cc9900;
+    font-size: 36px;
+    background: url(../images/divider.png) center bottom no-repeat;
+    padding-bottom: 38px;
+}
+.right-food p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}/* =============== About Section End=============== */
+
+
+/* =============== Ingredients Section =============== */
+.ingredients-area { position: relative }
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+.ingredients-bg { 
+	background-image: url(../images/photos.jpg);
+}
+.img-text {
+    z-index: 1;
+    position: relative;
+    padding: 50px;
+}
+.img-text h2 {
+    color: #fff;
+    font-size: 36px;
+    background: url(../images/divder_2.png) center bottom no-repeat;
+    padding-bottom: 40px;
+}
+.img-text p {
+    font-size: 15px;
+    color: #fff;
+}
+.img-text img {
+	 padding: 35px 0;
+}
+.img-text:after {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+}/* =============== Ingredients Section End =============== */
+
+
+/* =============== Food-Menu Section  =============== */
+.food-menu {
+	 background: url(../images/pattern_2.jpg) center top no-repeat;
+}
+.single-food {
+    margin-bottom: 35px;
+    position: relative;
+}
+.single-food h4 {
+    color: #d2b561;
+    font-size: 19px;
+    background: url(../images/food-line.png) center bottom no-repeat;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.single-food span {
+	 float: right;
+}
+.single-food p {
+	 font-size: 14px; 
+}
+.single-food.special {
+    border: 1px solid #d2b561;
+    padding: 5px;
+}
+.single-food.special:before {
+    content: "special";
+    background-color: #d6bb6c;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 10px;
+    position: absolute;
+    top: -25px;
+    right: -1px;
+}/* =============== Food-Menu Section End =============== */
+
+
+/* =============== Testimonial Section =============== */
+.testimonial-area {
+	 position: relative;
+}
+.testimonial-bg {
+	 background-image: url(../images/kitchen.jpg); 
+}
+.testimonial-area p.main-rev {
+	 font-size: 20px; 
+}
+.testimonial-area p.author-rev {
+    font-size: 20px;
+    margin-top: 30px;
+}
+#testimonial-carousel:before {
+    color: #9a9b9a;
+    content: "";
+    font-family: FontAwesome;
+    font-size: 33px;
+    left: -33px;
+    position: absolute;
+    top: -21px;
+}/* =============== Testimonial Section End =============== */
+
+
+/* =============== Contact Section =============== */
+.contact-area { background: url(../images/pattern_2.jpg) center top no-repeat }
+.contact-img img {
+    margin-left: 15px;
+    width: 260px;
+}
+.contact-form label {
+    color: #d2b561;
+    font-weight: bold;
+    font-size: 15px;
+}
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+    border: 1px solid #d2b561;
+}
+.contact-form.text-left button {
+    background: #cba03c;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 150px;
+    padding: 5px 30px;
+    margin: 0 auto;
+}/* =============== Contact Section End =============== */
+
+
+/* =============== Footer Section =============== */
+.footer { background-color: #191919 }
+.footer .aboutus { color: #fff }
+.footer .aboutus h4 {
+    background: url(../images/divder_2.png) center bottom no-repeat;
+    padding-bottom: 40px;
+}
+.aboutus p {
+    font-size: 14px;
+    padding: 2px;
+}
+.cards a i {
+    color: #fff;
+    margin-top: 40px;
+    padding-left: 5px;
+    font-size: 16px;
+}/* =============== Footer End Section =============== */
+
+
+/* =============== Is Sticky Section =============== */
+.header-area,
+.logo img,
+.main-menu ul.nav.navbar-nav li a,
+.social_links {
+	 -webkit-transition: .4s; 
+	 transition: .4s; 
+}
+.header-area {
+    position: relative;
+    z-index: 999 !important;
+    width: 100%;
+}
+.is-sticky .header-area {
+    position: absolute;
+    width: 100%;
+    background: #FF2A2D;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    content: "";
+}
+.is-sticky .logo img {
+    height: 55px;
+    width: auto;
+    padding: 5px 0;
+}
+.is-sticky .main-menu ul.nav.navbar-nav li a {
+	 padding: 22px 15px;
+}
+.is-sticky .social_links {
+	 top: 20px; 
+}/* =============== Is Sticky Section End =============== */

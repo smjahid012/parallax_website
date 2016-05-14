@@ -1,0 +1,99 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {     
+	.contact-img img {
+    	width: 250px;
+		margin-bottom:30px;
+	}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	
+	.logo {
+    	text-align: center;
+	}
+	.main-menu {
+    	padding-right: 46px;
+	}
+	.header-text h2{
+		font-size:60px;
+		margin-bottom:30px;
+	}
+	.contact-img img {
+		margin-bottom:35px;
+	}
+
+	.author.text-center img {
+    	padding-bottom: 30px;
+	}
+	.parallax-bg {
+		background-size:auto;    
+		background-attachment:fixed;
+	}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+ 	.logo {
+	 	text-align:center;
+	}
+	.main-menu {
+		padding-right: 0;
+		margin-top:2px;
+		text-align:center;
+	}
+	.navbar-header {
+    	margin-left: 20px;
+	}	
+	.navbar-toggle {
+		border: 1px solid #fff;
+		float: none;	
+		border-radius:0;
+	}
+	.navbar-toggle .icon-bar {
+	  background: #fff;
+	}
+	.mobile-menu-activated ul.nav.navbar-nav{
+		background:#000;
+		text-align:center;
+	}
+	.mobile-menu-activated ul.nav.navbar-nav li{
+		display:block;
+	}
+	.mobile-menu-activated ul.nav.navbar-nav li a{
+		border-bottom:1px solid #333;
+		padding:15px;
+	}
+	.mobile-menu-activated .navbar-collapse{
+		box-shadow:0 0 0;
+	}
+	.header-text h2{
+		font-size:50px;
+		color:#000;}
+	.parallax-bg {
+		background-size:auto;    
+		background-attachment:fixed;
+	}
+	.social_links{
+		position:static;
+	}
+	.contact-img img {
+		margin-bottom:30px;
+	}
+	.is-sticky .main-menu ul.nav.navbar-nav li a {
+	  padding:14px;
+	}
+	.footer .aboutus {
+	  padding-bottom: 25px;
+	}
+	.img-text::after {
+	  background:#20B128;
+	  opacity: .4;
+	}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
